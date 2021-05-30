@@ -1,0 +1,49 @@
+body {
+  text-align: center;
+  background-color: #f7f7f7;
+}
+
+.main_input {
+  /*margin-top: 5cm;*/
+  display: inline-block;
+  font-weight: bold;
+}
+
+.form {
+  margin: 0 15em;
+  padding: 2em;
+  background-color: white;
+}
+
+.choose_file {
+  padding-left: 5em;
+}
+
+.choose_file::-webkit-file-upload-button {
+  background-color: white;
+}
+
+.btn {
+  font-size: 20px;
+  border-radius: 5px;
+  background-color: white;
+  border: 2px solid #727272;
+}
+
+.btn:hover {
+  background-color: #727272;
+  color: white;
+}
+
+h1 {
+  text-align: center;
+}
+
+.container {
+  align-content: center;
+}
+
+a {
+  font-size: 20px;
+  text-decoration: none;
+}

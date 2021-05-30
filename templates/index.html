@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}" />
+    <!-- <link rel="stylesheet" href="../static/main.css"> -->
+    <title>Upload</title>
+  </head>
+  <body>
+
+    <div class="container">
+      <h1 style="text-align: center;">Send files to YOSHI BANSAL</h1>
+      <h1 class="main_input">Upload new file</h1>
+
+      <div class="form">
+        <form method=post enctype=multipart/form-data>
+          <input class="choose_file" type=file name=file><br><br><br>
+          <input class="btn" type=submit value='Upload a file'>
+        </form>
+      </div>
+      <br>
+    </div>
+
+    <div>
+      <p style="color: red">{{ message }}</p>
+      
+      <h4>Existing files on server:- </h4>
+    
+      {% for file in existing_files %}
+        <p>{{ file }}</p>
+      {% endfor %}
+
+    </div>
+
+  </body>
+</html>
