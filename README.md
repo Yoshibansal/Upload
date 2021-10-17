@@ -9,5 +9,5 @@ To run
     - cd <PATH> 
     - python3 -m venv venv
     - venv\Scripts\activate
-    - pip install flask
+    - pip install -r requirements.txt
     - flask run
