@@ -17,3 +17,7 @@ To run
     - venv\Scripts\activate
     - pip install -r requirements.txt
     - flask run
+
+
+##TO-DO
+        - Loading animation
