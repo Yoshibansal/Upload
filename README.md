@@ -16,7 +16,9 @@ To run
     - python3 -m venv venv
     - venv\Scripts\activate
     - pip install -r requirements.txt
-    - flask run
+    - flask run --host=0.0.0.0
+    OR
+    - python3 app.py
 
 
 ##TO-DO
