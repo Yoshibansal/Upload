@@ -11,7 +11,7 @@ import zipfile
 
 UPLOAD_FOLDER = 'static/uploaded_files'
 ALLOWED_EXTENSIONS = {'txt', 'pdf', 'png',
-                      'jpg', 'jpeg', 'gif', 'pptx', 'css', 'html'}
+                      'jpg', 'jpeg', 'gif', 'pptx', 'css', 'html', 'zip'}
 
 app = Flask(__name__)
 app.secret_key = "qazxswedcvfrplmnko"
